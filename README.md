@@ -24,16 +24,16 @@ Product Spec
 
 Required Must-have Stories:
 
-- User can create an account and log in.
-- User can log workouts, including type, duration, and intensity.
-- User can track their weight over time.
-- User can create and modify custom workout routines.
-- User can view progress through charts and graphs.
+- [ ] User can create an account and log in.
+- [ ] User can log workouts, including type, duration, and intensity.
+- [ ] User can track their weight over time.
+- [ ] User can create and modify custom workout routines.
+- [ ] User can view progress through charts and graphs.
 
 Optional Nice-to-have Stories
-- User can receive personalized workout and diet suggestions.
-- User can set and receive reminders for workout sessions.
-- User can connect with friends for shared fitness challenges.
+- [ ] User can receive personalized workout and diet suggestions.
+- [ ] User can set and receive reminders for workout sessions.
+- [ ] User can connect with friends for shared fitness challenges.
 
 
 2. Screen Archetypes
@@ -99,12 +99,12 @@ User
 | email    | String   | User's email for account verification    |
 
 Workout
-|Property	 |  Type	 |    Description                                 |
+|Property	   |  Type	   |    Description                                 |
 |workoutId	 |  String	 | Unique id for the workout session              |
 |userId	     |  String	 | ID of the user who logged the workout          |
-|date	     |  DateTime |	  Date and time when the workout was logged   |
-|type	     |  String	 | Type of workout (e.g., Cardio, Strength)       |
-|duration	 |  Number	 | Duration of the workout in minutes             |
+|date	       |  DateTime |	  Date and time when the workout was logged   |
+|type	       |  String	 | Type of workout (e.g., Cardio, Strength)       |
+|duration	   |  Number	 | Duration of the workout in minutes             |
 |intensity	 |  String	 | Intensity of workout (Light, Moderate, Intense)|
 |description |  String	 | Optional description of the workou             |
 
