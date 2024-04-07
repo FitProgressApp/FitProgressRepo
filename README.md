@@ -24,11 +24,11 @@ Product Spec
 
 Required Must-have Stories:
 
-- [ ] User can create an account and log in.
-- [ ] User can log workouts, including type, duration, and intensity.
-- [ ] User can track their weight over time.
+- [ ] User can create an account, log in, and logout.
+- [ ] User can log workouts, including type, duration, and repetitions.
+- [ ] User can log their weight with every workout
 - [ ] User can create and modify custom workout routines.
-- [ ] User can view progress through charts and graphs.
+- [ ] User should see every workout they log (numbered)
 
 Optional Nice-to-have Stories
 - [ ] User can receive personalized workout and diet suggestions.
@@ -93,10 +93,13 @@ Models
 
 User
 
-| Property | Type     | Description                              |
-| username | String   | Unique id for the user                   |
-| password | String   | User's password for login authentication |
-| email    | String   | User's email for account verification    |
+| Property       | Type     | Description                              |
+| username       | String   | Unique id for the user                   |
+| password       | String   | User's password for login authentication |
+| email          | String   | User's email for account verification    |
+| name           | String   | Name of the user                         |
+| weight goal    | Int      | Weight goal for the user                 |
+| current weight | Int      | current weight of the user               |
 
 Workout
 |Property	   |  Type	   |    Description                                 |
