@@ -17,7 +17,7 @@ Habit: This app is designed for daily use, encouraging users to log their workou
 
 Scope: FitProgress starts as a focused app for workout and weight tracking, with the potential to expand into a broader health and fitness platform.
 
-GIF - Video
+Demo Video of our FULLY FUNCTIONAL APP
 
 https://www.loom.com/share/ff65e0bed2d7490aae9fbdc6493bc20a
 
