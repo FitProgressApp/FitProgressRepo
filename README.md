@@ -21,6 +21,22 @@ Demo Video of our **FULLY FUNCTIONAL APP**
 
 https://www.loom.com/share/ff65e0bed2d7490aae9fbdc6493bc20a
 
+GIF #1 - Sign Up
+
+https://www.loom.com/share/59c9866a55e14a9a80111f7f6333a806
+
+GIF #2 - Create/Log Workout and Showing Workout Log Feed
+
+https://www.loom.com/share/46eabf0d8cba420ab1a06266fd871293
+
+GIF #3 - Updating Goal Weight
+
+https://www.loom.com/share/3f4beeb0dfff4b02b22f65a431f75c21
+
+GIF #4 - Logout Button and Re Login 
+
+https://www.loom.com/share/f05780bb02784bf69b1244624b657062
+
 Product Spec
 
 1. User Stories (Required and Optional)
