@@ -24,16 +24,11 @@ Product Spec
 
 Required Must-have Stories:
 
-- [ ] User can create an account, log in, and logout.
-- [ ] User can log workouts, including type, duration, and repetitions.
-- [ ] User can log their weight with every workout
-- [ ] User can create and modify custom workout routines.
-- [ ] User should see every workout they log (numbered)
-
-Optional Nice-to-have Stories
-- [ ] User can receive personalized workout and diet suggestions.
-- [ ] User can set and receive reminders for workout sessions.
-- [ ] User can connect with friends for shared fitness challenges.
+- [x] User can create an account, log in, and logout.
+- [x] User can log workouts, including type, duration, and repetitions.
+- [x] User can log their weight with every workout
+- [x] User can create exercises
+- [x] User should see every workout they log 
 
 
 2. Screen Archetypes
