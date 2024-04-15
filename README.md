@@ -90,7 +90,8 @@ Profile page:
 
 Wireframes
 
-![wireframe](https://github.com/FitProgressApp/FitProgressRepo/assets/133716455/3457a15a-ebc5-432b-8d76-d3e670a13255)
+
+![wireframe](https://github.com/FitProgressApp/FitProgressRepo/assets/133716455/93517b47-db78-4bef-a825-680ddedfb365)
 
 
 
