@@ -46,41 +46,51 @@ Workout Log Screen
 - Required User Feature: User can log and view past workouts.
 
 
-Weight Tracking Screen
-- Required User Feature: User can log and track their weight over time.
+Profile View Screen
+- Required User Feature: User can view their information: username, display name, weight goal, current weight
+- Required User Feature: User can update weight on profile view
 
 
-Routine Creation Screen
-- Required User Feature: User can create and modify workout routines.
+Workout Feed Screen:
+- Required User Feature: Displays buttons for each individual workout, user should be able to click on it and see the details of the exercise
 
 
 3. Navigation
 Tab Navigation (Tab to Screen)
 
-Home Feed
+Login Screen
+Signup screen
+Workout Feed
+Workout Display
 Workout Log
-Weight Tracking
 Profile
 
 Flow Navigation (Screen to Screen)
 
 Login Screen
-- Leads to Home Feed
+- Leads to workout feed if user signs in
+- If user wants to sign up, leads to registration screen
 
-Registration Screen
-- Leads to setup Screen
+Signup Screen
+- Leads to workout feed when user signs up with valid credentials
 
-Setup screen
-- Leads to Home feed
+Workout Feed
+- Leads to screen where exercise details are shown
+- Can navigate to workout log page or profile page
 
 Workout Detail Screen
-- Leads to Modifications and Historical Data
+- Leads back to the workout feed
+
+Workout Log:
+- Can navigate to profile page or workout feed
+
+Profile page:
+- Leads to signin screen if user decides to log out
+- Can navigate to workout log or workout feed
 
 Wireframes
 
 ![draw](https://hackmd.io/_uploads/rJhVO2jAa.png)
-
-
 
 
 Schema
@@ -98,23 +108,29 @@ User
 
 Workout
 |Property	   |  Type	   |    Description                                 |
-|workoutId	 |  String	 | Unique id for the workout session              |
-|userId	     |  String	 | ID of the user who logged the workout          |
-|date	       |  DateTime |	  Date and time when the workout was logged   |
+|title     	 |  String	 | Title for the exercise                         |
 |type	       |  String	 | Type of workout (e.g., Cardio, Strength)       |
 |duration	   |  Number	 | Duration of the workout in minutes             |
-|intensity	 |  String	 | Intensity of workout (Light, Moderate, Intense)|
-|description |  String	 | Optional description of the workou             |
+|sets        |  Int      | Amount fo sets worked out in exercise          |
+|repetitions |  Int	     | Amount of repetitions per set of exercise      |
+|user        |  User     | User that associates with the workout          |
 
 Networking
-Home Feed Screen
-- (Read/GET) Query logged workouts
-- (Create/POST) Log a new workout
 
-Workout Log Screen
-- (Read/GET) Query all workouts
-- (Update/PUT) Update workout details
+Login Screen
+- POST
 
-Weight Tracking Screen
-- (Read/GET) Query weight entries
-- (Create/POST) Log a new weight entry
+Signup Screen
+- POST
+
+Workout Feed
+- GET
+
+Workout Log
+- POST
+
+Profile Page
+- GET, PUT
+
+Workout Detail
+- GET
