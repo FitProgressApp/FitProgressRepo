@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53168C1D2BCCCE90008E621D /* WorkoutDisplayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53168C1C2BCCCE90008E621D /* WorkoutDisplayController.swift */; };
+		53168C1F2BCCE16C008E621D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53168C1E2BCCE16C008E621D /* ArrayExtension.swift */; };
 		53F82CE52BC091C200A1C6BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82CE42BC091C200A1C6BB /* AppDelegate.swift */; };
 		53F82CE72BC091C200A1C6BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82CE62BC091C200A1C6BB /* SceneDelegate.swift */; };
 		53F82CE92BC091C200A1C6BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82CE82BC091C200A1C6BB /* ViewController.swift */; };
@@ -16,6 +18,16 @@
 		53F82CFC2BC091C700A1C6BB /* FitProgressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82CFB2BC091C700A1C6BB /* FitProgressTests.swift */; };
 		53F82D062BC091C700A1C6BB /* FitProgressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D052BC091C700A1C6BB /* FitProgressUITests.swift */; };
 		53F82D082BC091C700A1C6BB /* FitProgressUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D072BC091C700A1C6BB /* FitProgressUITestsLaunchTests.swift */; };
+		53F82D152BC2660000A1C6BB /* WorkoutFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D142BC2660000A1C6BB /* WorkoutFeedController.swift */; };
+		53F82D172BC2663200A1C6BB /* WorkoutLogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D162BC2663200A1C6BB /* WorkoutLogController.swift */; };
+		53F82D192BC2664500A1C6BB /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D182BC2664500A1C6BB /* ProfileViewController.swift */; };
+		53F82D1B2BC2665900A1C6BB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D1A2BC2665900A1C6BB /* LoginViewController.swift */; };
+		53F82D1D2BC2667200A1C6BB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D1C2BC2667200A1C6BB /* SignUpViewController.swift */; };
+		53F82D202BC2687700A1C6BB /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 53F82D1F2BC2687700A1C6BB /* ParseSwift */; };
+		53F82D232BC268A300A1C6BB /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 53F82D222BC268A300A1C6BB /* AlamofireImage */; };
+		53F82D252BC26B5000A1C6BB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D242BC26B5000A1C6BB /* User.swift */; };
+		53F82D272BC26B8600A1C6BB /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D262BC26B8600A1C6BB /* Workout.swift */; };
+		53F82D292BC26C0000A1C6BB /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F82D282BC26C0000A1C6BB /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53168C1C2BCCCE90008E621D /* WorkoutDisplayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDisplayController.swift; sourceTree = "<group>"; };
+		53168C1E2BCCE16C008E621D /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		53F82CE12BC091C200A1C6BB /* FitProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F82CE42BC091C200A1C6BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		53F82CE62BC091C200A1C6BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,14 @@
 		53F82D012BC091C700A1C6BB /* FitProgressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitProgressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F82D052BC091C700A1C6BB /* FitProgressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitProgressUITests.swift; sourceTree = "<group>"; };
 		53F82D072BC091C700A1C6BB /* FitProgressUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitProgressUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		53F82D142BC2660000A1C6BB /* WorkoutFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutFeedController.swift; sourceTree = "<group>"; };
+		53F82D162BC2663200A1C6BB /* WorkoutLogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutLogController.swift; sourceTree = "<group>"; };
+		53F82D182BC2664500A1C6BB /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		53F82D1A2BC2665900A1C6BB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		53F82D1C2BC2667200A1C6BB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		53F82D242BC26B5000A1C6BB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		53F82D262BC26B8600A1C6BB /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		53F82D282BC26C0000A1C6BB /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F82D202BC2687700A1C6BB /* ParseSwift in Frameworks */,
+				53F82D232BC268A300A1C6BB /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +130,16 @@
 				53F82CED2BC091C600A1C6BB /* Assets.xcassets */,
 				53F82CEF2BC091C600A1C6BB /* LaunchScreen.storyboard */,
 				53F82CF22BC091C600A1C6BB /* Info.plist */,
+				53F82D1A2BC2665900A1C6BB /* LoginViewController.swift */,
+				53F82D1C2BC2667200A1C6BB /* SignUpViewController.swift */,
+				53F82D142BC2660000A1C6BB /* WorkoutFeedController.swift */,
+				53F82D282BC26C0000A1C6BB /* FeedCell.swift */,
+				53168C1C2BCCCE90008E621D /* WorkoutDisplayController.swift */,
+				53F82D162BC2663200A1C6BB /* WorkoutLogController.swift */,
+				53F82D182BC2664500A1C6BB /* ProfileViewController.swift */,
+				53F82D242BC26B5000A1C6BB /* User.swift */,
+				53F82D262BC26B8600A1C6BB /* Workout.swift */,
+				53168C1E2BCCE16C008E621D /* ArrayExtension.swift */,
 			);
 			path = FitProgress;
 			sourceTree = "<group>";
@@ -143,6 +177,10 @@
 			dependencies = (
 			);
 			name = FitProgress;
+			packageProductDependencies = (
+				53F82D1F2BC2687700A1C6BB /* ParseSwift */,
+				53F82D222BC268A300A1C6BB /* AlamofireImage */,
+			);
 			productName = FitProgress;
 			productReference = 53F82CE12BC091C200A1C6BB /* FitProgress.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +253,10 @@
 				Base,
 			);
 			mainGroup = 53F82CD82BC091C200A1C6BB;
+			packageReferences = (
+				53F82D1E2BC2687700A1C6BB /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				53F82D212BC268A300A1C6BB /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 53F82CE22BC091C200A1C6BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,9 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53F82D1B2BC2665900A1C6BB /* LoginViewController.swift in Sources */,
+				53F82D192BC2664500A1C6BB /* ProfileViewController.swift in Sources */,
+				53168C1D2BCCCE90008E621D /* WorkoutDisplayController.swift in Sources */,
+				53F82D1D2BC2667200A1C6BB /* SignUpViewController.swift in Sources */,
+				53F82D272BC26B8600A1C6BB /* Workout.swift in Sources */,
+				53F82D292BC26C0000A1C6BB /* FeedCell.swift in Sources */,
 				53F82CE92BC091C200A1C6BB /* ViewController.swift in Sources */,
+				53F82D152BC2660000A1C6BB /* WorkoutFeedController.swift in Sources */,
+				53F82D252BC26B5000A1C6BB /* User.swift in Sources */,
 				53F82CE52BC091C200A1C6BB /* AppDelegate.swift in Sources */,
 				53F82CE72BC091C200A1C6BB /* SceneDelegate.swift in Sources */,
+				53F82D172BC2663200A1C6BB /* WorkoutLogController.swift in Sources */,
+				53168C1F2BCCE16C008E621D /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +653,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		53F82D1E2BC2687700A1C6BB /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.14.2;
+			};
+		};
+		53F82D212BC268A300A1C6BB /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		53F82D1F2BC2687700A1C6BB /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53F82D1E2BC2687700A1C6BB /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		53F82D222BC268A300A1C6BB /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 53F82D212BC268A300A1C6BB /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 53F82CD92BC091C200A1C6BB /* Project object */;
 }

@@ -6,13 +6,19 @@
 //
 
 import UIKit
+import ParseSwift // Import ParseSwift
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        // Initialize ParseSwift with your Back4App credentials
+        ParseSwift.initialize(
+            applicationId: "wx9EbMPJ7jrw1nOncbhJ1JdUsBl9AmLCyT0lTpGI", // Replace with your actual Application ID from Back4App
+            clientKey: "QqEpfXUlENmLsLEqJSlIStbuOQAgoHavhKohYszA", // Replace with your actual Client Key from Back4App; some apps may not have a client key
+            serverURL: URL(string: "https://parseapi.back4app.com")! // Replace with your actual Server URL from Back4App
+        )
+
         // Override point for customization after application launch.
         return true
     }
@@ -30,7 +36,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
 }
-
