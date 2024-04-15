@@ -33,6 +33,7 @@ Optional Stories
 - [x] User can change their weight on the profile screen
 - [x] User can see the weight change as they browse the gyms
 
+
 2. Screen Archetypes
 
 
