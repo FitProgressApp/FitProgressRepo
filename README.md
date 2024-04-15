@@ -26,10 +26,12 @@ Required Must-have Stories:
 
 - [x] User can create an account, log in, and logout.
 - [x] User can log workouts, including type, duration, and repetitions.
-- [x] User can log their weight with every workout
 - [x] User can create exercises
-- [x] User should see every workout they log 
+- [x] User should see every workout they log
 
+Optional Stories
+- [x] User can change their weight on the profile screen
+- [x] User can see the weight change as they browse the gyms
 
 2. Screen Archetypes
 
