@@ -117,20 +117,11 @@ Workout
 
 Networking
 
-Login Screen
-- POST
+Each screen in the application interfaces with our backend services to perform specific networking tasks essential for functionality:
 
-Signup Screen
-- POST
-
-Workout Feed
-- GET
-
-Workout Log
-- POST
-
-Profile Page
-- GET, PUT
-
-Workout Detail
-- GET
+- **LoginScreen**: Executes a POST request to authenticate users.
+- **SignupScreen**: Performs a POST request to register new users and their data.
+- **WorkoutFeed**: Uses GET requests to fetch a list of user-specific workouts.
+- **WorkoutLog**: Sends POST requests to log new workouts into the system.
+- **Profile**: Retrieves user data with a GET request and updates user information using PUT requests when changes are made.
+- **WorkoutDetail**: Utilizes a GET request to fetch detailed information on a specific workout.
