@@ -90,7 +90,8 @@ Profile page:
 
 Wireframes
 
-![draw](https://hackmd.io/_uploads/rJhVO2jAa.png)
+![wireframe](https://github.com/FitProgressApp/FitProgressRepo/assets/133716455/3457a15a-ebc5-432b-8d76-d3e670a13255)
+
 
 
 Schema
