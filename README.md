@@ -19,6 +19,10 @@ Scope: FitProgress starts as a focused app for workout and weight tracking, with
 
 Product Spec
 
+GIF - Video
+
+https://www.loom.com/share/ff65e0bed2d7490aae9fbdc6493bc20a
+
 1. User Stories (Required and Optional)
 
 
