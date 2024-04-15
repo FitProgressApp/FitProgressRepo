@@ -100,22 +100,22 @@ Models
 
 User
 
-| Property       | Type     | Description                              |
-| username       | String   | Unique id for the user                   |
-| password       | String   | User's password for login authentication |
-| email          | String   | User's email for account verification    |
-| name           | String   | Name of the user                         |
-| weight goal    | Int      | Weight goal for the user                 |
-| current weight | Int      | current weight of the user               |
+Property, Type, Description
+- username, String, Unique id for the user
+- password, String, User's password for login authentication
+- email, String, User's email for account verification
+- name, String, Name of the user
+- weight goal, Int, Weight goal for the user   
+- current weight, Int, current weight of the user          
 
 Workout
-|Property	   |  Type	   |    Description                                 |
-|title     	 |  String	 | Title for the exercise                         |
-|type	       |  String	 | Type of workout (e.g., Cardio, Strength)       |
-|duration	   |  Number	 | Duration of the workout in minutes             |
-|sets        |  Int      | Amount fo sets worked out in exercise          |
-|repetitions |  Int	     | Amount of repetitions per set of exercise      |
-|user        |  User     | User that associates with the workout          |
+- Property, Type, Description                           
+- title, String, Title for the exercise                    
+- type, String, Type of workout (e.g., Cardio, Strength)   
+- duration, Number, Duration of the workout in minutes        
+- sets, Int, Amount fo sets worked out in exercise       
+- repetitions, Int, Amount of repetitions per set of exercise    
+- user, User, User that associates with the workout        
 
 Networking
 
